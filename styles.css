@@ -1,0 +1,222 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+    background: rgba(30, 2, 30, 0.9);
+    color: rgb(249, 249, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    font-size: 11px;
+    position: relative;
+    box-sizing: inherit;
+    padding-bottom: 70px;
+    min-height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+
+.navbar{
+    height: 65px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+.navbar a {
+    color:rgb(255, 255, 255);
+    text-decoration: none; /*remove the underline*/
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.navbar li{
+    float: right;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    width: 60%;
+    min-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+h2 {
+    border-bottom: 4px solid rgba(30, 2, 30, 1) ;
+    padding: 80px 0 10px 0;
+    margin-top: 0;
+}
+
+.home {
+    padding-top: 80px;
+    font-size: 40px; 
+    text-align: center;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.source {
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.source a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.source a:hover {
+    color:rgb(255, 255, 255)
+}
+
+aside {
+    box-shadow: inset 0px 6px 3px -3px rgba(30, 2, 30, 1);
+    font-size: 10px;
+    padding-top: 1px;
+}
+
+table {
+    margin-top: 30px;
+}
+
+table .score {
+    padding-right: 12px;
+}
+
+tbody th, tbody td {
+    padding-top: 20px;
+}
+
+tbody th{
+    text-align: left;
+    width: 25%;
+}
+
+tbody td[class="#"] {
+    text-align: center;
+}
+
+tbody td[class="score"] {
+    text-align: center;
+}
+
+tbody td[class="comment"] {
+    width: 40%;
+}
+
+tbody td a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+tbody td a:hover {
+    color: white;
+}
+
+tbody td[class="poster"] {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    padding: 10px;
+    margin: 10px 0 10px 10px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 23px;
+    background: rgba(133, 111, 133, 1);
+    border: 3px solid rgba(30, 2, 30, 1);
+    border-radius: 10% ;
+}
+button:hover {
+    background-color:rgba(30, 2, 30, 1);
+    color: rgba(133, 111, 133, 1);
+}
+
+ol {
+    padding-top: 65px;
+    font-size: 18px;
+}
+
+div[class="contact"] {
+    padding: 20px 0;
+    display: flex;
+}
+
+.first-img {
+    border-radius: 100%;
+}
+
+ul[class="info"] {
+    font-size: 13px;
+    list-style-type: none;
+}
+.info li {
+    padding-bottom: 20px;
+}
+.info a {
+    text-decoration: underline;
+    color:inherit;
+
+}
+footer {
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+address {
+    padding: 10px 0;
+}
+
+address a {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}

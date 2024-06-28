@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--need to explain the content element-->
+        <link rel="stylesheet" href="styles.css">
+        <title>My Ghibli Ranking</title>
+    </head>
+    <body>
+        <header>
+            <h1>My Ghibli Ranking</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="home_page.html">Home</a></li>
+                    <li><a href="intro.html">Intro</a></li>
+                    <li><a href="ranking.html">Ranking</a></li>
+                    <li><a href="opinion.html">Opinion</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Feel free to roast my ranking</h2>
+                <form action="post" action="opinion-collection.php"><!--this page does not exist-->
+                    <div>
+                        <label for="nickname">Enter your nickname:</label>
+                        <input required type="text" id="nickname">
+                    </div>
+                    <br>
+                    <div>
+                        <textarea id="opinion" placeholder="My opinion on the ranking is..." rows="10" cols="73"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Send</button>
+                    </div> 
+                </form>
+            </section>
+        </main>
+        <footer>
+            <address>
+                <p><a href="contact.html">More about me<a></a></p>
+            </address>
+        </footer>
+    </body>
+</html>
